@@ -2,9 +2,6 @@ body{
   background-color: lightgray;
 }
 
-.main {
-}
-
 .bio{
   margin-right: 10px;
 }
@@ -50,12 +47,16 @@ footer{
 .piclabel{
   position: absolute;
   right: 20px;
-  top:120px;
-  width: 87%;
-  padding: 5px;
+  width: 285px;
+  height: 40px;
+  padding: 0px;
   background: #4aaaa5;
   text-align:center;
   color: white;
+  display: block;
+  line-height:2;
+  z-index: 2;
+  bottom: 25px;
 }
 
 .bottom{
